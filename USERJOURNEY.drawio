@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" modified="2025-08-02T12:00:00.000Z" agent="5.0" version="24.7.0" type="device">
+  <diagram name="User Journey" id="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <mxCell id="2" value="DevTok Companion - User Journey Map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1f2937;" vertex="1" parent="1">
+          <mxGeometry x="284" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="3" value="🎬 TikTok Creator → 📱 DevTok Companion → 👀 TikTok Viewer" style="text;html=1;strokeColor=#6366f1;fillColor=#e0e7ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontStyle=1;fontColor=#4338ca;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="800" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="4" value="Phase 1: Discovery &amp; Signup" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#3b82f6;strokeWidth=3;fontSize=16;fontStyle=1;fontColor=#1e40af;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="5" value="🔍 Creator discovers&#xa;DevTok via:&#xa;• Social media&#xa;• Dev community&#xa;• Word of mouth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#0ea5e9;fontSize=12;fontColor=#0c4a6e;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="6" value="🌐 Visits landing page&#xa;devtok.com&#xa;• Sees value prop&#xa;• Views examples&#xa;• Checks pricing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#0ea5e9;fontSize=12;fontColor=#0c4a6e;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="7" value="🔐 Signs up via&#xa;Auth0 (Google/GitHub)&#xa;• Quick OAuth flow&#xa;• Profile creation&#xa;• Free tier activated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#0ea5e9;fontSize=12;fontColor=#0c4a6e;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="8" value="Phase 2: Content Creation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;strokeWidth=3;fontSize=16;fontStyle=1;fontColor=#15803d;" vertex="1" parent="1">
+          <mxGeometry x="50" y="340" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="9" value="📱 Creator makes&#xa;TikTok video with code&#xa;• Records coding&#xa;• Explains concept&#xa;• Mentions 'link in bio'" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#22c55e;fontSize=12;fontColor=#15803d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="10" value="💻 Opens DevTok&#xa;dashboard&#xa;• Creates new snippet&#xa;• Adds code + metadata&#xa;• Links to TikTok video" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#22c55e;fontSize=12;fontColor=#15803d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="11" value="🔗 Gets shareable link&#xa;devtok.com/s/abc123&#xa;• Copies to clipboard&#xa;• Tests on mobile&#xa;• Updates TikTok bio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#22c55e;fontSize=12;fontColor=#15803d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="12" value="📈 Monitors analytics&#xa;• Views dashboard&#xa;• Tracks engagement&#xa;• Optimizes content" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#22c55e;fontSize=12;fontColor=#15803d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="13" value="Phase 3: Viewer Experience" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;strokeWidth=3;fontSize=16;fontStyle=1;fontColor=#92400e;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="14" value="📱 Viewer watches&#xa;TikTok video&#xa;• Sees code demo&#xa;• Wants full code&#xa;• Clicks bio link" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#f59e0b;fontSize=12;fontColor=#92400e;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="15" value="🌐 Lands on snippet page&#xa;• Fast mobile load (&lt;2s)&#xa;• Beautiful syntax highlighting&#xa;• Mobile-optimized UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#f59e0b;fontSize=12;fontColor=#92400e;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="16" value="📋 Copies code&#xa;• One-click copy&#xa;• View count tracked&#xa;• Optional: back to TikTok" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#f59e0b;fontSize=12;fontColor=#92400e;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17" value="🔄 Follows creator&#xa;• Discovers more content&#xa;• Becomes regular viewer&#xa;• Potential dev inspiration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#f59e0b;fontSize=12;fontColor=#92400e;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="18" value="Phase 4: Growth &amp; Monetization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce7f3;strokeColor=#ec4899;strokeWidth=3;fontSize=16;fontStyle=1;fontColor=#be185d;" vertex="1" parent="1">
+          <mxGeometry x="620" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="19" value="📊 Creator reviews&#xa;analytics&#xa;• Popular snippets&#xa;• Traffic sources&#xa;• Engagement metrics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;strokeColor=#ec4899;fontSize=12;fontColor=#be185d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="20" value="⬆️ Hits free tier limit&#xa;(5 snippets)&#xa;• Needs more storage&#xa;• Wants advanced analytics&#xa;• Considers upgrade" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;strokeColor=#ec4899;fontSize=12;fontColor=#be185d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="740" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="21" value="💳 Upgrades to Pro&#xa;($12/month)&#xa;• Stripe checkout&#xa;• Unlimited snippets&#xa;• Custom branding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;strokeColor=#ec4899;fontSize=12;fontColor=#be185d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="880" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="22" value="🎨 Customizes branding&#xa;• Personal domain&#xa;• Custom colors&#xa;• Logo integration&#xa;• Professional look" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;strokeColor=#ec4899;fontSize=12;fontColor=#be185d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="23" value="📈 Scales content&#xa;• More TikToks&#xa;• Bigger audience&#xa;• Higher engagement&#xa;• Potential sponsors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;strokeColor=#ec4899;fontSize=12;fontColor=#be185d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="24" value="👥 Team collaboration&#xa;• Invites team members&#xa;• Shared snippet library&#xa;• Brand consistency&#xa;• TEAM tier ($49/mo)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;strokeColor=#ec4899;fontSize=12;fontColor=#be185d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="880" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="25" value="🔥 Pain Points Solved" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef2f2;strokeColor=#dc2626;strokeWidth=3;fontSize=16;fontStyle=1;fontColor=#991b1b;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="26" value="❌ Before DevTok:&#xa;• Code lost in comments&#xa;• Poor mobile formatting&#xa;• No analytics&#xa;• Manual link management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef7f7;strokeColor=#dc2626;fontSize=11;fontColor=#991b1b;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="27" value="✅ After DevTok:&#xa;• Professional code sharing&#xa;• Mobile-first design&#xa;• Detailed analytics&#xa;• Automated workflow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef7f7;strokeColor=#dc2626;fontSize=11;fontColor=#991b1b;align=left;" vertex="1" parent="1">
+          <mxGeometry x="760" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="28" value="📊 Success Metrics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#16a34a;strokeWidth=3;fontSize=16;fontStyle=1;fontColor=#166534;" vertex="1" parent="1">
+          <mxGeometry x="620" y="600" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="29" value="Creator Success:&#xa;• 📈 +150% engagement&#xa;• ⏱️ 80% time saved&#xa;• 💰 Revenue from content&#xa;&#xa;Viewer Success:&#xa;• ⚡ &lt;2s load time&#xa;• 📱 Mobile-optimized&#xa;• 📋 Easy code access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fee7;strokeColor=#16a34a;fontSize=11;fontColor=#166534;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="660" width="220" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="30" value="🎯 Conversion Point" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fbbf24;strokeColor=#f59e0b;fontColor=#92400e;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="31" value="🎯 Conversion Point" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fbbf24;strokeColor=#f59e0b;fontColor=#92400e;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="420" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="32" value="🎯 Conversion Point" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fbbf24;strokeColor=#f59e0b;fontColor=#92400e;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3b82f6;strokeWidth=3;endArrow=classic;endSize=8;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3b82f6;strokeWidth=3;endArrow=classic;endSize=8;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16a34a;strokeWidth=3;endArrow=classic;endSize=8;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16a34a;strokeWidth=3;endArrow=classic;endSize=8;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16a34a;strokeWidth=3;endArrow=classic;endSize=8;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f59e0b;strokeWidth=3;endArrow=classic;endSize=8;" edge="1" parent="1" source="14" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f59e0b;strokeWidth=3;endArrow=classic;endSize=8;" edge="1" parent="1" source="15" target="16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f59e0b;strokeWidth=3;endArrow=classic;endSize=8;" edge="1" parent="1" source="16" target="17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ec4899;strokeWidth=3;endArrow=classic;endSize=8;" edge="1" parent="1" source="19" target="20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ec4899;strokeWidth=3;endArrow=classic;endSize=8;" edge="1" parent="1" source="20" target="21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

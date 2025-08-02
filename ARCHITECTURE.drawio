@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" modified="2025-08-02T12:00:00.000Z" agent="5.0" version="24.7.0" type="device">
+  <diagram name="DevTok Architecture" id="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <mxCell id="2" value="DevTok Companion - System Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1f2937;" vertex="1" parent="1">
+          <mxGeometry x="284" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="3" value="User Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#3b82f6;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1e40af;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="4" value="TikTok Creator&#xa;📱" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#0ea5e9;fontSize=14;fontColor=#0c4a6e;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="5" value="TikTok Viewer&#xa;👀" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#0ea5e9;fontSize=14;fontColor=#0c4a6e;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="6" value="Frontend Layer (Next.js 15)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;strokeColor=#10b981;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#047857;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="7" value="Landing Page&#xa;/ (SSG)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#22c55e;fontSize=12;fontColor=#15803d;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="8" value="Dashboard&#xa;/dashboard (SSR)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#22c55e;fontSize=12;fontColor=#15803d;" vertex="1" parent="1">
+          <mxGeometry x="370" y="180" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="9" value="Snippet View&#xa;/s/[slug] (SSR)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#22c55e;fontSize=12;fontColor=#15803d;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="10" value="API Layer (App Router)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#92400e;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="11" value="Snippets API&#xa;/api/snippets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#f59e0b;fontSize=12;fontColor=#92400e;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="12" value="Analytics API&#xa;/api/analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#f59e0b;fontSize=12;fontColor=#92400e;" vertex="1" parent="1">
+          <mxGeometry x="650" y="180" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="13" value="Authentication Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce7f3;strokeColor=#ec4899;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#be185d;" vertex="1" parent="1">
+          <mxGeometry x="800" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="14" value="Auth0&#xa;🔐" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;strokeColor=#ec4899;fontSize=12;fontColor=#be185d;" vertex="1" parent="1">
+          <mxGeometry x="820" y="180" width="60" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="15" value="NextAuth.js&#xa;Session Mgmt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;strokeColor=#ec4899;fontSize=12;fontColor=#be185d;" vertex="1" parent="1">
+          <mxGeometry x="890" y="180" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="16" value="Database Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#a855f7;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#7c2d12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17" value="Prisma ORM&#xa;Type-Safe DB Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#faf5ff;strokeColor=#a855f7;fontSize=12;fontColor=#7c2d12;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="18" value="SQLite&#xa;(Development)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#faf5ff;strokeColor=#a855f7;fontSize=12;fontColor=#7c2d12;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="19" value="PostgreSQL&#xa;(Production)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#faf5ff;strokeColor=#a855f7;fontSize=12;fontColor=#7c2d12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="20" value="External Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef7ed;strokeColor=#ea580c;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#c2410c;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="180" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="21" value="TikTok&#xa;Platform 📱" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;fontSize=12;fontColor=#c2410c;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="22" value="Stripe&#xa;Payments 💳" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;fontSize=12;fontColor=#c2410c;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="23" value="Tech Stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#475569;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="24" value="• TypeScript&#xa;• Tailwind CSS&#xa;• React Syntax Highlighter&#xa;• Mobile-First Design&#xa;• App Router&#xa;• Server Components" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#475569;fontSize=11;fontColor=#334155;align=left;" vertex="1" parent="1">
+          <mxGeometry x="580" y="380" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="25" value="Key Features" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#16a34a;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#166534;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="26" value="• Code Snippet Hosting&#xa;• Mobile-First Design&#xa;• Analytics Dashboard&#xa;• TikTok Integration&#xa;• QR Code Generation&#xa;• Freemium Model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fee7;strokeColor=#16a34a;fontSize=11;fontColor=#166534;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="530" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="27" value="Monetization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#d97706;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#92400e;" vertex="1" parent="1">
+          <mxGeometry x="260" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="28" value="• FREE: 5 snippets&#xa;• PRO: $12/month&#xa;• TEAM: $49/month&#xa;• Unlimited snippets&#xa;• Advanced analytics&#xa;• Custom branding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffef7;strokeColor=#d97706;fontSize=11;fontColor=#92400e;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="530" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="29" value="Performance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#0284c7;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#0c4a6e;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="30" value="• SSG for Landing&#xa;• SSR for Dynamic&#xa;• Fast Loading (&lt;2s)&#xa;• Code Splitting&#xa;• Image Optimization&#xa;• Mobile Optimized" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#0284c7;fontSize=11;fontColor=#0c4a6e;align=left;" vertex="1" parent="1">
+          <mxGeometry x="420" y="530" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="31" value="Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef2f2;strokeColor=#dc2626;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#991b1b;" vertex="1" parent="1">
+          <mxGeometry x="620" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="32" value="• OAuth 2.0 / OpenID&#xa;• CSRF Protection&#xa;• Rate Limiting&#xa;• Input Sanitization&#xa;• Secure Headers&#xa;• Environment Isolation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef7f7;strokeColor=#dc2626;fontSize=11;fontColor=#991b1b;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="530" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3b82f6;strokeWidth=2;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3b82f6;strokeWidth=2;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f59e0b;strokeWidth=2;" edge="1" parent="1" source="8" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#a855f7;strokeWidth=2;" edge="1" parent="1" source="11" target="17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
